@@ -1,0 +1,129 @@
+/* HEADER */
+
+.main-container{
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 390px;
+    /* margin-right: 56px; */
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+    padding: 12px;
+  }
+  
+  .header__navigation .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navigation-arrows{
+    display: flex;
+  }
+  .header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color:var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header__login {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+    padding-left:1rem;
+  }
+  
+  .header__search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+  }
+  
+  .header__search input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+    outline: none;
+  }
+  
+  .header__login .subscribe-button {
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border:none;
+    cursor:pointer
+  }
+  .header__login .subscribe-button:hover {
+    color: #fff;
+    transform: scale(1.04)
+  }
+  
+  .header__login .login-button {
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    cursor:pointer;
+  }
+  .header__login .login-button:hover {
+    transform:scale(1.04)
+  }
+
+  .content__section{
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+    padding: 32px 32px 24px 24px;
+  }
+
+  .content__section .content-title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom:32px;
+  }
+
+  .content__section .content-subtitle{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px
+  }
