@@ -20,7 +20,7 @@
                 <a href="">
                     <img  src="./assets/icons/logo-spotify.png" alt="Logo do Spotify">
                 </a>
-                <div #side-menu>
+                
                     <ul>
                         <li>
                             <a href="">
@@ -35,16 +35,18 @@
                             </a>
                         </li>
                     </ul>
-                </div>
+                
             </div>
         </nav>
-        <nav class="sidebar-library">
-            <div class="library">
-                <div class="library-header">
-                    <span class="fa fa-book"></span>
-                    <span>Sua Biblioteca</span>
+        <nav class="sidebar__my-library">
+            <div class="sidebar__my-library-content">
+                <div class="sidebar__my-library-header">
+                    <button class="my-library__button">
+                        <span class="fa fa-book"></span>
+                        <span>Sua Biblioteca</span>
+                    </button>
                 </div>
-                <div class="fa fa-plus"></div>
+                <span class="fa  fa-plus"></span>
             </div>
             <div class="create-playlist">
                 <span>Crie sua primeira playlist</span>
@@ -73,6 +75,17 @@
             </div>
         </nav>
     </div>
+    <footer>
+        <div class="footer__content">
+            <div class="footer__texts">
+                <span class="tittle">Testar o premium de graça</span>
+                <span class="subtitle">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito</span>
+            </div>
+            <div class="footer__button">
+                <button>Inscreva-se grátis</button>
+            </div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
